@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*
+    HTML id = CSS #
+    HTML class = CSS .
+*/
+
+
+body {
+    background-color: #686A79;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    text-align: center;
+    color: #212436
+}
+
+.basico {
+    text-align: left;
+    color: #7B82B5;
+}
+
+p {
+    text-align: justify;
+    color: #F03590;
+}

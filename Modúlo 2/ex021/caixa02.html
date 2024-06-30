@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: lightcyan;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header{
+            background-color: white;
+        }
+
+        main {
+            background-color: bisque;
+        }
+
+        nav {
+            padding: 10px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            margin: 30px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color:  red;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 30px 10px;
+            padding: 10px;
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Esportes, Tecnológias, Política</h2>
+        </section>
+        <section>
+            <article>
+                <h2>Noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, fugit sit! Nulla sint itaque laboriosam accusantium! Magnam ullam nobis suscipit. Deserunt deleniti ratione libero minima at aperiam fuga ipsam sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nihil inventore quod! Repellendus porro voluptates perferendis quasi sapiente eligendi distinctio iure fuga voluptatem impedit minima ex vero omnis, odio praesentium.</p>
+                <aside>
+                    Escrito por José da Silva
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Yxdshmane</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    font-family: sans-serif;
+    font-style: inherit;
+    color: aliceblue;
+}
+
+body {
+    background-color: #1e2124;
+}
+
+iframe {
+    justify-content: center;
+    position: relative;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+
+}
+
+.seta {
+    width: 100px;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+    left: 920px;
+}
+
+.youtube {
+    font-family: sans-serif;
+    width: 100px;
+    justify-content: center;
+    position: relative;
+    top: 450px;
+    left: 940px;
+
+}
+
+.h1under {
+    display: flex;
+    justify-content: center;
+}
+
+.h1p {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    justify-content: center;
+    width: 300px;
+    position: relative;
+
+
+
+}
